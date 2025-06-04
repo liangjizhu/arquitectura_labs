@@ -28,6 +28,12 @@ echo "Debug Parallel Mandelbrot set generated in debug-par-mandel.pbm"
 perf stat -a -e python3 -OO mandel/mandel.py 8000 > py-mandel.pbm 2> py-mandel.log
 echo "Python Mandelbrot set generated in py-mandel.pbm"
 
+
+# python Mandelbrot set generation
+perf stat -a -e 'power/energy-cores/,power/energy-gpu/,power/energy-pkg/,power/energy-psys/' \
+mandel/mandel.py 8000 > py-mandel.pbm 2> energy-py-mandel.log
+echo "Python Mandelbrot set generated in py-mandel.pbm"
+
 # Release Mandelbrot set generation
 perf stat -a -e 'power/energy-cores/,power/energy-gpu/,power/energy-pkg/,power/energy-psys/' \
 mandel-release/mandel 8000 seq-madel.pbm 2> energy-seq-mandel.log
