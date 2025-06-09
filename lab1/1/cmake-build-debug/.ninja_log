@@ -1,0 +1,8 @@
+# ninja log v6
+0	14	1748814477075595494	CMakeFiles/arquitectura_labs.dir/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab1/2/geom.cpp.o	4450e31ff73b8756
+0	23	1748814551817379396	build.ninja	a0d7f5f91543a7ab
+0	224	1748814477075595494	CMakeFiles/arquitectura_labs.dir/hello.cpp.o	2cac99dee5e3a94
+0	225	1748814477075595494	CMakeFiles/arquitectura_labs.dir/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab1/2/main.cpp.o	e42e286ea0b0a217
+152	193	1748813777516534309	arquitectura_labs	d577ae8572c6ebe1
+1	25	1748814551817379396	build.ninja	a0d7f5f91543a7ab
+1	41	1748814551822379382	arquitectura_labs	d577ae8572c6ebe1

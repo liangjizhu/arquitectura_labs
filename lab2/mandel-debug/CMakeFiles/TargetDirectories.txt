@@ -1,0 +1,4 @@
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab2/mandel-debug/CMakeFiles/mandel.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab2/mandel-debug/CMakeFiles/mandel-par.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab2/mandel-debug/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab2/mandel-debug/CMakeFiles/rebuild_cache.dir

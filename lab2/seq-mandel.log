@@ -1,0 +1,26 @@
+
+ Performance counter stats for 'system wide':
+
+         70.036,34 msec cpu-clock                        #   20,001 CPUs utilized             
+            83.489      context-switches                 #    1,192 K/sec                     
+             6.162      cpu-migrations                   #   87,983 /sec                      
+             5.357      page-faults                      #   76,489 /sec                      
+     6.853.983.072      cpu_atom/cycles/                 #    0,098 GHz                         (74,97%)
+    21.911.075.676      cpu_core/cycles/                 #    0,313 GHz                       
+     4.637.841.279      cpu_atom/instructions/           #    0,68  insn per cycle              (87,59%)
+    40.923.268.790      cpu_core/instructions/           #    5,97  insn per cycle            
+       644.807.622      cpu_atom/branches/               #    9,207 M/sec                       (87,43%)
+     5.969.838.240      cpu_core/branches/               #   85,239 M/sec                     
+        28.729.364      cpu_atom/branch-misses/          #    4,46% of all branches             (87,47%)
+        66.097.168      cpu_core/branch-misses/          #   10,25% of all branches           
+             TopdownL1 (cpu_core)                 #     51,7 %  tma_backend_bound      
+                                                  #      5,3 %  tma_bad_speculation    
+                                                  #     12,4 %  tma_frontend_bound     
+                                                  #     30,6 %  tma_retiring           
+             TopdownL1 (cpu_atom)                 #     18,5 %  tma_bad_speculation    
+                                                  #     15,9 %  tma_retiring             (87,59%)
+                                                  #     33,7 %  tma_backend_bound      
+                                                  #     31,9 %  tma_frontend_bound       (87,45%)
+
+       3,501607433 seconds time elapsed
+

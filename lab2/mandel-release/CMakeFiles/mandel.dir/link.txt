@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/mandel.dir/mandel.cpp.o -o mandel 

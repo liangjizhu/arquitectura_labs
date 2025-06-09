@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/mandel-par.dir/mandel-par.cpp.o" -o mandel-par 

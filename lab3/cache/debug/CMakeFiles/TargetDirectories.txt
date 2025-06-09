@@ -1,0 +1,6 @@
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab3/cache/debug/CMakeFiles/loop_merge.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab3/cache/debug/CMakeFiles/loop_merge_opt.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab3/cache/debug/CMakeFiles/aos.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab3/cache/debug/CMakeFiles/soa.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab3/cache/debug/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab3/cache/debug/CMakeFiles/rebuild_cache.dir
