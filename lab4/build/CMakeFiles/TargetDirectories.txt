@@ -1,0 +1,7 @@
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab4/build/CMakeFiles/piseq.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab4/build/CMakeFiles/piseqtime.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab4/build/CMakeFiles/pipar.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab4/build/CMakeFiles/exseq.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab4/build/CMakeFiles/expar.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab4/build/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab4/build/CMakeFiles/rebuild_cache.dir
