@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/expar.dir/expar.cpp.o -o expar  /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 
