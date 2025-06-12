@@ -1,0 +1,28 @@
+Operation: histogram
+Input: in/sabatini.bmp
+Output: sabatini-seq.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 10717 us
+
+ Performance counter stats for 'build/imgtool/imgtool histogram in/sabatini.bmp sabatini-seq.bmp':
+
+             70,03 msec task-clock                       #    0,799 CPUs utilized          
+                 7      context-switches                 #   99,954 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               517      page-faults                      #    7,382 K/sec                  
+   <not supported>      cycles                                                      
+   <not supported>      instructions                                                
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0,087643021 seconds time elapsed
+
+       0,066493000 seconds user
+       0,003911000 seconds sys
+
+

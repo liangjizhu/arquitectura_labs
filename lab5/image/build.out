@@ -1,0 +1,26 @@
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (4.5s)
+-- Generating done (0.6s)
+-- Build files have been written to: /home/alumnos/a0495723/arquitectura_labs/lab5/image/build
+[ 35%] Building CXX object img/CMakeFiles/img.dir/checking.cpp.o
+[ 35%] Building CXX object util/CMakeFiles/util.dir/program_arguments.cpp.o
+[ 57%] Building CXX object img/CMakeFiles/img.dir/image_header.cpp.o
+[ 57%] Building CXX object img/CMakeFiles/img.dir/normalized_pixel.cpp.o
+[ 57%] Building CXX object img/CMakeFiles/img.dir/pixel.cpp.o
+[ 57%] Building CXX object img/CMakeFiles/img.dir/image_metadata.cpp.o
+[ 57%] Building CXX object img/CMakeFiles/img.dir/parallel_image.cpp.o
+[ 57%] Building CXX object img/CMakeFiles/img.dir/image.cpp.o
+[ 64%] Building CXX object img/CMakeFiles/img.dir/histogram.cpp.o
+[ 71%] Linking CXX static library libutil.a
+[ 78%] Linking CXX static library libimg.a
+[ 78%] Built target util
+[ 78%] Built target img
+[ 92%] Building CXX object imgtool/CMakeFiles/imgtool.dir/imgtool.cpp.o
+[ 92%] Building CXX object imgtool/CMakeFiles/imgtool.dir/processing.cpp.o
+[100%] Linking CXX executable imgtool
+[100%] Built target imgtool

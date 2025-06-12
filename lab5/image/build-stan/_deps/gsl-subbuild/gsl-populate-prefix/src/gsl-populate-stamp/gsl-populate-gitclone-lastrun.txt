@@ -3,13 +3,13 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/bin/cmake;-P;/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/tmp/gsl-populate-gitclone.cmake
-source_dir=/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-src
-work_dir=/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps
+command=/opt/cmake3.30.4/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/tmp/gsl-populate-gitclone.cmake
+source_dir=/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-src
+work_dir=/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps
 repository=https://github.com/microsoft/GSL
 remote=origin
 init_submodules=TRUE
 recurse_submodules=--recursive
 submodules=
 CMP0097=NEW
-
+      

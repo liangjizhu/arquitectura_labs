@@ -1,0 +1,28 @@
+Operation: grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gseq.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 326932 us
+
+ Performance counter stats for 'build/imgtool/imgtool grayscale in/sabatini.bmp sabatini-gseq.bmp':
+
+            497,49 msec task-clock                       #    0,283 CPUs utilized          
+               212      context-switches                 #  426,135 /sec                   
+                 1      cpu-migrations                   #    2,010 /sec                   
+               524      page-faults                      #    1,053 K/sec                  
+   <not supported>      cycles                                                      
+   <not supported>      instructions                                                
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       1,757844648 seconds time elapsed
+
+       0,486559000 seconds user
+       0,012163000 seconds sys
+
+

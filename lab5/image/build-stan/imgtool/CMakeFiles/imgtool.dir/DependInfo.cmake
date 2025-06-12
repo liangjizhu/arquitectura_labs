@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/imgtool/imgtool.cpp" "imgtool/CMakeFiles/imgtool.dir/imgtool.cpp.o" "gcc" "imgtool/CMakeFiles/imgtool.dir/imgtool.cpp.o.d"
-  "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/imgtool/processing.cpp" "imgtool/CMakeFiles/imgtool.dir/processing.cpp.o" "gcc" "imgtool/CMakeFiles/imgtool.dir/processing.cpp.o.d"
+  "/home/alumnos/a0495723/arquitectura_labs/lab5/image/imgtool/imgtool.cpp" "imgtool/CMakeFiles/imgtool.dir/imgtool.cpp.o" "gcc" "imgtool/CMakeFiles/imgtool.dir/imgtool.cpp.o.d"
+  "/home/alumnos/a0495723/arquitectura_labs/lab5/image/imgtool/processing.cpp" "imgtool/CMakeFiles/imgtool.dir/processing.cpp.o" "gcc" "imgtool/CMakeFiles/imgtool.dir/processing.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,0 +1,6 @@
+-- Configuring done (1.2s)
+-- Generating done (0.9s)
+-- Build files have been written to: /home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan
+[ 14%] Built target util
+[ 78%] Built target img
+[100%] Built target imgtool

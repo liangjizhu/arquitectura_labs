@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/CMakeFiles/gsl-populate"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/CMakeFiles/gsl-populate"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/CMakeFiles/gsl-populate.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/CMakeFiles/gsl-populate.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/CMakeFiles/gsl-populate-complete.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/CMakeFiles/gsl-populate-complete.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-build.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-build.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-configure.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-configure.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-download.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-download.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-install.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-install.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-mkdir.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-mkdir.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-patch.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-patch.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-test.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-test.rule"
 		},
 		{
-			"file" : "/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-update.rule"
+			"file" : "/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-update.rule"
 		}
 	],
 	"target" : 

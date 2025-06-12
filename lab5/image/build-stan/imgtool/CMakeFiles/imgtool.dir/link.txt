@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG -march=native CMakeFiles/imgtool.dir/imgtool.cpp.o CMakeFiles/imgtool.dir/processing.cpp.o -o imgtool  ../util/libutil.a ../img/libimg.a 
+/usr/bin/c++ -O3 -DNDEBUG -march=native CMakeFiles/imgtool.dir/imgtool.cpp.o CMakeFiles/imgtool.dir/processing.cpp.o -o imgtool  ../util/libutil.a ../img/libimg.a
