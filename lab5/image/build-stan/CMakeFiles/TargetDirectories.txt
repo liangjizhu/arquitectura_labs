@@ -1,0 +1,15 @@
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/CMakeFiles/rebuild_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-build/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-build/CMakeFiles/rebuild_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-build/include/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/_deps/gsl-build/include/CMakeFiles/rebuild_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/util/CMakeFiles/util.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/util/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/util/CMakeFiles/rebuild_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/img/CMakeFiles/img.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/img/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/img/CMakeFiles/rebuild_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/imgtool/CMakeFiles/imgtool.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/imgtool/CMakeFiles/edit_cache.dir
+/home/liang-ji-zhu/Escritorio/1Cuatri/arquitectura_labs/lab5/image/build-stan/imgtool/CMakeFiles/rebuild_cache.dir

@@ -2,6 +2,7 @@
 #define IMAGE_CHECKING_HPP
 
 #include <string>
+#include <cstdint>
 
 namespace img
 {
