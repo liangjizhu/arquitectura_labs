@@ -5,7 +5,7 @@
 namespace img
 {
 
-    void parallel_image::read(std::istream& is)
+    void parallel_image::read(std::istream &is)
     {
         metadata_.read(is);
 
@@ -23,21 +23,24 @@ namespace img
                 pixel_value.read(is);
                 pixels_.push_back(pixel_value);
             }
-            if (extra != 0) { is.ignore(4 - extra); }
+            if (extra != 0)
+            {
+                is.ignore(4 - extra);
+            }
         }
     }
 
     namespace
     {
-        void write_padding(std::ostream& os, int n) noexcept
+        void write_padding(std::ostream &os, int n) noexcept
         {
             std::array<uint8_t, 3> pad_pixel{};
             // NOLINTNEXTLINE(cppcoreguidelines-pro-type-reinterpret-cast)
-            os.write(reinterpret_cast<char*>(pad_pixel.data()), n);
+            os.write(reinterpret_cast<char *>(pad_pixel.data()), n);
         }
     } // namespace
 
-    void parallel_image::write(std::ostream& os) const
+    void parallel_image::write(std::ostream &os) const
     {
         metadata_.write(os);
 
@@ -59,20 +62,24 @@ namespace img
     void parallel_image::to_grayscale()
     {
         auto const max = std::ssize(pixels_);
-        for (int i = 0; i < max; ++i) { pixels_[i] = pixels_[i].to_gray(); }
+#pragma omp parallel for
+        for (int i = 0; i < max; ++i)
+        {
+            pixels_[i] = pixels_[i].to_gray();
+        }
     }
 
     histogram parallel_image::generate_histogram() const
     {
         histogram histo;
         const int pixel_count = metadata_.width() * metadata_.height();
+#pragma omp for
         for (int i = 0; i < pixel_count; ++i)
         {
             histo.add_color(pixels_[i]);
         }
         return histo;
     }
-
 
     pixel parallel_image::get_pixel(int r, int c) const
     {

@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/alumnos/a0495723/arquitectura_labs/lab5/image/PRIVATE -I/home/alumnos/a0495723/arquitectura_labs/lab5/image/. -isystem /home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/_deps/gsl-src/include
 
-CXX_FLAGS = -O3 -DNDEBUG -march=native -std=c++20 -Wall -Wextra -Werror -pedantic -pedantic-errors
+CXX_FLAGS = -O3 -DNDEBUG -march=native -std=c++20 -Wall -Wextra -Werror -pedantic -pedantic-errors -fopenmp
 

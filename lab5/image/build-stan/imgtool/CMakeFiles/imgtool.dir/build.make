@@ -110,6 +110,8 @@ imgtool/imgtool: imgtool/CMakeFiles/imgtool.dir/processing.cpp.o
 imgtool/imgtool: imgtool/CMakeFiles/imgtool.dir/build.make
 imgtool/imgtool: util/libutil.a
 imgtool/imgtool: img/libimg.a
+imgtool/imgtool: /usr/lib/gcc/x86_64-linux-gnu/12/libgomp.so
+imgtool/imgtool: /usr/lib/x86_64-linux-gnu/libpthread.a
 imgtool/imgtool: imgtool/CMakeFiles/imgtool.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable imgtool"
 	cd /home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan/imgtool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgtool.dir/link.txt --verbose=$(VERBOSE)

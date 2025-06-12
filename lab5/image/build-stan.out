@@ -1,6 +1,11 @@
--- Configuring done (1.2s)
--- Generating done (0.9s)
+-- Configuring done (0.9s)
+-- Generating done (0.7s)
 -- Build files have been written to: /home/alumnos/a0495723/arquitectura_labs/lab5/image/build-stan
-[ 14%] Built target util
+[ 21%] Built target util
+[ 21%] Building CXX object img/CMakeFiles/img.dir/parallel_image.cpp.o
+[ 28%] Linking CXX static library libimg.a
 [ 78%] Built target img
+[ 92%] Building CXX object imgtool/CMakeFiles/imgtool.dir/imgtool.cpp.o
+[ 92%] Building CXX object imgtool/CMakeFiles/imgtool.dir/processing.cpp.o
+[100%] Linking CXX executable imgtool
 [100%] Built target imgtool

@@ -1,0 +1,231 @@
+Operation: par_grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gpar.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 275807 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_grayscale in/sabatini.bmp sabatini-gpar.bmp':
+
+            380,75 msec task-clock                       #    0,518 CPUs utilized          
+                78      context-switches                 #  204,857 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               527      page-faults                      #    1,384 K/sec                  
+     1.111.557.844      cycles                           #    2,919 GHz                    
+     2.571.024.546      instructions                     #    2,31  insn per cycle         
+       378.295.526      branches                         #  993,545 M/sec                  
+            92.571      branch-misses                    #    0,02% of all branches        
+     5.557.615.885      slots                            #   14,596 G/sec                  
+     2.654.775.373      topdown-retiring                 #     35,2% Retiring              
+     2.070.484.349      topdown-bad-spec                 #     27,5% Bad Speculation       
+       130.651.253      topdown-fe-bound                 #      1,7% Frontend Bound        
+     2.678.695.780      topdown-be-bound                 #     35,6% Backend Bound         
+
+       0,735127645 seconds time elapsed
+
+       0,370521000 seconds user
+       0,011825000 seconds sys
+
+
+Operation: par_grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gpar.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 179578 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_grayscale in/sabatini.bmp sabatini-gpar.bmp':
+
+            426,32 msec task-clock                       #    0,676 CPUs utilized          
+               106      context-switches                 #  248,641 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               533      page-faults                      #    1,250 K/sec                  
+     1.139.856.713      cycles                           #    2,674 GHz                    
+     2.575.311.703      instructions                     #    2,26  insn per cycle         
+       379.535.753      branches                         #  890,264 M/sec                  
+            94.214      branch-misses                    #    0,02% of all branches        
+     5.699.243.655      slots                            #   13,369 G/sec                  
+     2.670.156.704      topdown-retiring                 #     37,2% Retiring              
+     1.551.751.613      topdown-bad-spec                 #     21,6% Bad Speculation       
+       135.909.464      topdown-fe-bound                 #      1,9% Frontend Bound        
+     2.814.063.814      topdown-be-bound                 #     39,2% Backend Bound         
+
+       0,630965514 seconds time elapsed
+
+       0,416230000 seconds user
+       0,012006000 seconds sys
+
+
+Operation: par_grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gpar.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 109120 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_grayscale in/sabatini.bmp sabatini-gpar.bmp':
+
+            530,28 msec task-clock                       #    0,935 CPUs utilized          
+               106      context-switches                 #  199,895 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               543      page-faults                      #    1,024 K/sec                  
+     1.183.663.828      cycles                           #    2,232 GHz                    
+     2.580.943.386      instructions                     #    2,18  insn per cycle         
+       381.119.028      branches                         #  718,717 M/sec                  
+            96.468      branch-misses                    #    0,03% of all branches        
+     5.918.318.780      slots                            #   11,161 G/sec                  
+     2.679.782.595      topdown-retiring                 #     38,5% Retiring              
+     1.144.651.500      topdown-bad-spec                 #     16,4% Bad Speculation       
+       124.178.062      topdown-fe-bound                 #      1,8% Frontend Bound        
+     3.012.524.653      topdown-be-bound                 #     43,3% Backend Bound         
+
+       0,567333697 seconds time elapsed
+
+       0,520088000 seconds user
+       0,012002000 seconds sys
+
+
+Operation: par_grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gpar.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 55581 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_grayscale in/sabatini.bmp sabatini-gpar.bmp':
+
+            547,72 msec task-clock                       #    1,080 CPUs utilized          
+               109      context-switches                 #  199,007 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+             1.072      page-faults                      #    1,957 K/sec                  
+     1.279.888.748      cycles                           #    2,337 GHz                    
+     2.598.693.159      instructions                     #    2,03  insn per cycle         
+       385.981.547      branches                         #  704,705 M/sec                  
+           103.593      branch-misses                    #    0,03% of all branches        
+     6.399.398.720      slots                            #   11,684 G/sec                  
+     2.710.898.934      topdown-retiring                 #     37,8% Retiring              
+       877.414.485      topdown-bad-spec                 #     12,2% Bad Speculation       
+       131.372.823      topdown-fe-bound                 #      1,8% Frontend Bound        
+     3.447.010.241      topdown-be-bound                 #     48,1% Backend Bound         
+
+       0,507068733 seconds time elapsed
+
+       0,512324000 seconds user
+       0,037670000 seconds sys
+
+
+Operation: par_grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gpar.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 28369 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_grayscale in/sabatini.bmp sabatini-gpar.bmp':
+
+            652,98 msec task-clock                       #    1,334 CPUs utilized          
+               144      context-switches                 #  220,526 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               600      page-faults                      #  918,859 /sec                   
+     1.382.782.908      cycles                           #    2,118 GHz                    
+     2.613.244.490      instructions                     #    1,89  insn per cycle         
+       390.201.312      branches                         #  597,567 M/sec                  
+           112.917      branch-misses                    #    0,03% of all branches        
+     6.913.913.940      slots                            #   10,588 G/sec                  
+     2.745.485.158      topdown-retiring                 #     36,0% Retiring              
+       810.332.904      topdown-bad-spec                 #     10,6% Bad Speculation       
+       131.453.486      topdown-fe-bound                 #      1,7% Frontend Bound        
+     3.928.639.200      topdown-be-bound                 #     51,6% Backend Bound         
+
+       0,489338509 seconds time elapsed
+
+       0,637197000 seconds user
+       0,019545000 seconds sys
+
+
+Operation: par_grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gpar.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 17761 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_grayscale in/sabatini.bmp sabatini-gpar.bmp':
+
+            849,25 msec task-clock                       #    1,815 CPUs utilized          
+               158      context-switches                 #  186,046 /sec                   
+                 1      cpu-migrations                   #    1,178 /sec                   
+               662      page-faults                      #  779,511 /sec                   
+     1.757.744.286      cycles                           #    2,070 GHz                    
+     2.670.970.707      instructions                     #    1,52  insn per cycle         
+       406.474.818      branches                         #  478,628 M/sec                  
+           134.933      branch-misses                    #    0,03% of all branches        
+     8.786.041.615      slots                            #   10,346 G/sec                  
+     2.872.178.644      topdown-retiring                 #     30,8% Retiring              
+       643.175.536      topdown-bad-spec                 #      6,9% Bad Speculation       
+       140.960.577      topdown-fe-bound                 #      1,5% Frontend Bound        
+     5.656.866.930      topdown-be-bound                 #     60,7% Backend Bound         
+
+       0,467945401 seconds time elapsed
+
+       0,842787000 seconds user
+       0,011982000 seconds sys
+
+
+Operation: par_grayscale
+Input: in/sabatini.bmp
+Output: sabatini-gpar.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 11515 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_grayscale in/sabatini.bmp sabatini-gpar.bmp':
+
+          2.062,72 msec task-clock                       #    4,366 CPUs utilized          
+               356      context-switches                 #  172,587 /sec                   
+                 1      cpu-migrations                   #    0,485 /sec                   
+               990      page-faults                      #  479,948 /sec                   
+     4.105.952.090      cycles                           #    1,991 GHz                    
+     2.910.364.682      instructions                     #    0,71  insn per cycle         
+       473.781.138      branches                         #  229,687 M/sec                  
+           195.316      branch-misses                    #    0,04% of all branches        
+    11.404.581.000      slots                            #    5,529 G/sec                  
+     3.388.449.742      topdown-retiring                 #     25,6% Retiring              
+       436.234.672      topdown-bad-spec                 #      3,3% Bad Speculation       
+     2.026.289.359      topdown-fe-bound                 #     15,3% Frontend Bound        
+     7.388.794.988      topdown-be-bound                 #     55,8% Backend Bound         
+
+       0,472480369 seconds time elapsed
+
+       2,060111000 seconds user
+       0,015345000 seconds sys
+
+

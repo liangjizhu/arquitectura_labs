@@ -8,4 +8,5 @@ add_library(img
         image.cpp
         histogram.cpp)
 
-target_link_libraries(img PRIVATE Microsoft.GSL::GSL)
+find_package(OpenMP REQUIRED)
+target_link_libraries(img Microsoft.GSL::GSL OpenMP::OpenMP_CXX)

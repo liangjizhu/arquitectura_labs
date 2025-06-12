@@ -1,0 +1,231 @@
+Operation: par_histogram
+Input: in/sabatini.bmp
+Output: sabatini-par.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 10762 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_histogram in/sabatini.bmp sabatini-par.bmp':
+
+             83,10 msec task-clock                       #    0,840 CPUs utilized          
+                 5      context-switches                 #   60,170 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               525      page-faults                      #    6,318 K/sec                  
+       155.297.669      cycles                           #    1,869 GHz                    
+       562.530.313      instructions                     #    3,62  insn per cycle         
+       103.721.010      branches                         #    1,248 G/sec                  
+            27.958      branch-misses                    #    0,03% of all branches        
+       776.488.245      slots                            #    9,344 G/sec                  
+       597.930.463      topdown-retiring                 #     76,0% Retiring              
+        36.540.623      topdown-bad-spec                 #      4,6% Bad Speculation       
+        39.585.675      topdown-fe-bound                 #      5,0% Frontend Bound        
+       112.638.719      topdown-be-bound                 #     14,3% Backend Bound         
+
+       0,098937332 seconds time elapsed
+
+       0,076570000 seconds user
+       0,007657000 seconds sys
+
+
+Operation: par_histogram
+Input: in/sabatini.bmp
+Output: sabatini-par.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 7088 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_histogram in/sabatini.bmp sabatini-par.bmp':
+
+             65,27 msec task-clock                       #    0,780 CPUs utilized          
+                 6      context-switches                 #   91,927 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               525      page-faults                      #    8,044 K/sec                  
+       160.388.724      cycles                           #    2,457 GHz                    
+       562.356.876      instructions                     #    3,51  insn per cycle         
+       103.687.493      branches                         #    1,589 G/sec                  
+            28.661      branch-misses                    #    0,03% of all branches        
+       801.943.540      slots                            #   12,287 G/sec                  
+       598.546.073      topdown-retiring                 #     73,7% Retiring              
+        34.593.642      topdown-bad-spec                 #      4,3% Bad Speculation       
+        40.883.396      topdown-fe-bound                 #      5,0% Frontend Bound        
+       138.328.251      topdown-be-bound                 #     17,0% Backend Bound         
+
+       0,083656817 seconds time elapsed
+
+       0,058308000 seconds user
+       0,008329000 seconds sys
+
+
+Operation: par_histogram
+Input: in/sabatini.bmp
+Output: sabatini-par.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 12147 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_histogram in/sabatini.bmp sabatini-par.bmp':
+
+             78,96 msec task-clock                       #    0,808 CPUs utilized          
+                 7      context-switches                 #   88,653 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               525      page-faults                      #    6,649 K/sec                  
+       157.837.325      cycles                           #    1,999 GHz                    
+       562.529.241      instructions                     #    3,56  insn per cycle         
+       103.721.203      branches                         #    1,314 G/sec                  
+            28.687      branch-misses                    #    0,03% of all branches        
+       789.186.525      slots                            #    9,995 G/sec                  
+       598.597.053      topdown-retiring                 #     74,8% Retiring              
+        34.043.340      topdown-bad-spec                 #      4,3% Bad Speculation       
+        40.233.038      topdown-fe-bound                 #      5,0% Frontend Bound        
+       126.862.534      topdown-be-bound                 #     15,9% Backend Bound         
+
+       0,097767884 seconds time elapsed
+
+       0,080124000 seconds user
+       0,000000000 seconds sys
+
+
+Operation: par_histogram
+Input: in/sabatini.bmp
+Output: sabatini-par.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 6975 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_histogram in/sabatini.bmp sabatini-par.bmp':
+
+             62,94 msec task-clock                       #    0,792 CPUs utilized          
+                 6      context-switches                 #   95,328 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               526      page-faults                      #    8,357 K/sec                  
+       157.902.785      cycles                           #    2,509 GHz                    
+       562.386.953      instructions                     #    3,56  insn per cycle         
+       103.693.146      branches                         #    1,647 G/sec                  
+            27.376      branch-misses                    #    0,03% of all branches        
+       789.469.925      slots                            #   12,543 G/sec                  
+       598.778.481      topdown-retiring                 #     75,1% Retiring              
+        34.055.565      topdown-bad-spec                 #      4,3% Bad Speculation       
+        37.151.525      topdown-fe-bound                 #      4,7% Frontend Bound        
+       126.934.380      topdown-be-bound                 #     15,9% Backend Bound         
+
+       0,079448850 seconds time elapsed
+
+       0,064228000 seconds user
+       0,000000000 seconds sys
+
+
+Operation: par_histogram
+Input: in/sabatini.bmp
+Output: sabatini-par.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 6956 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_histogram in/sabatini.bmp sabatini-par.bmp':
+
+             62,67 msec task-clock                       #    0,782 CPUs utilized          
+                 6      context-switches                 #   95,734 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               524      page-faults                      #    8,361 K/sec                  
+       155.663.454      cycles                           #    2,484 GHz                    
+       562.503.160      instructions                     #    3,61  insn per cycle         
+       103.716.670      branches                         #    1,655 G/sec                  
+            27.614      branch-misses                    #    0,03% of all branches        
+       778.273.495      slots                            #   12,418 G/sec                  
+       599.434.547      topdown-retiring                 #     76,3% Retiring              
+        30.520.529      topdown-bad-spec                 #      3,9% Bad Speculation       
+        36.624.635      topdown-fe-bound                 #      4,7% Frontend Bound        
+       119.039.127      topdown-be-bound                 #     15,2% Backend Bound         
+
+       0,080132763 seconds time elapsed
+
+       0,063996000 seconds user
+       0,000000000 seconds sys
+
+
+Operation: par_histogram
+Input: in/sabatini.bmp
+Output: sabatini-par.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 7016 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_histogram in/sabatini.bmp sabatini-par.bmp':
+
+             62,96 msec task-clock                       #    0,776 CPUs utilized          
+                 6      context-switches                 #   95,292 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+             1.034      page-faults                      #   16,422 K/sec                  
+       156.624.875      cycles                           #    2,488 GHz                    
+       564.722.773      instructions                     #    3,61  insn per cycle         
+       104.189.136      branches                         #    1,655 G/sec                  
+            28.596      branch-misses                    #    0,03% of all branches        
+       783.124.315      slots                            #   12,438 G/sec                  
+       600.151.542      topdown-retiring                 #     75,9% Retiring              
+        33.781.833      topdown-bad-spec                 #      4,3% Bad Speculation       
+        39.923.984      topdown-fe-bound                 #      5,1% Frontend Bound        
+       116.709.056      topdown-be-bound                 #     14,8% Backend Bound         
+
+       0,081134098 seconds time elapsed
+
+       0,064392000 seconds user
+       0,000000000 seconds sys
+
+
+Operation: par_histogram
+Input: in/sabatini.bmp
+Output: sabatini-par.bmp
+Pixel start: 138
+Width: 1980
+Height: 1320
+Planes: 1
+Bit count: 24
+Compression: 0
+Ellapsed: 6990 us
+
+ Performance counter stats for 'build-stan/imgtool/imgtool par_histogram in/sabatini.bmp sabatini-par.bmp':
+
+             61,19 msec task-clock                       #    0,795 CPUs utilized          
+                 7      context-switches                 #  114,403 /sec                   
+                 0      cpu-migrations                   #    0,000 /sec                   
+               525      page-faults                      #    8,580 K/sec                  
+       156.413.894      cycles                           #    2,556 GHz                    
+       562.517.606      instructions                     #    3,60  insn per cycle         
+       103.719.817      branches                         #    1,695 G/sec                  
+            27.535      branch-misses                    #    0,03% of all branches        
+       782.023.840      slots                            #   12,781 G/sec                  
+       596.238.090      topdown-retiring                 #     75,2% Retiring              
+        39.867.882      topdown-bad-spec                 #      5,0% Bad Speculation       
+        36.801.121      topdown-fe-bound                 #      4,6% Frontend Bound        
+       119.600.887      topdown-be-bound                 #     15,1% Backend Bound         
+
+       0,076924664 seconds time elapsed
+
+       0,046672000 seconds user
+       0,015557000 seconds sys
+
+
