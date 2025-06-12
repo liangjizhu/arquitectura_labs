@@ -1,0 +1,88 @@
+==================
+WARNING: ThreadSanitizer: data race (pid=17633)
+  Read of size 8 at 0x7ffeb5103400 by thread T2:
+    #0 counter::update() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:12 (counter+0x31d1)
+    #1 operator() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:38 (counter+0x2315)
+    #2 __invoke_impl<void, main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:61 (counter+0x2ecf)
+    #3 __invoke<main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:96 (counter+0x2e64)
+    #4 _M_invoke<0> /usr/include/c++/12/bits/std_thread.h:252 (counter+0x2dca)
+    #5 operator() /usr/include/c++/12/bits/std_thread.h:259 (counter+0x2d74)
+    #6 _M_run /usr/include/c++/12/bits/std_thread.h:210 (counter+0x2d2e)
+    #7 <null> <null> (libstdc++.so.6+0xd44a2)
+
+  Previous write of size 8 at 0x7ffeb5103400 by thread T1:
+    #0 counter::update() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:12 (counter+0x31f6)
+    #1 operator() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:38 (counter+0x2315)
+    #2 __invoke_impl<void, main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:61 (counter+0x2ecf)
+    #3 __invoke<main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:96 (counter+0x2e64)
+    #4 _M_invoke<0> /usr/include/c++/12/bits/std_thread.h:252 (counter+0x2dca)
+    #5 operator() /usr/include/c++/12/bits/std_thread.h:259 (counter+0x2d74)
+    #6 _M_run /usr/include/c++/12/bits/std_thread.h:210 (counter+0x2d2e)
+    #7 <null> <null> (libstdc++.so.6+0xd44a2)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x1f400)
+
+  Thread T2 (tid=17636, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1001 (libtsan.so.2+0x5e686)
+    #1 std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) <null> (libstdc++.so.6+0xd4578)
+    #2 construct_at<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/stl_construct.h:97 (counter+0x2989)
+    #3 construct<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/alloc_traits.h:518 (counter+0x2668)
+    #4 _M_realloc_insert<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:462 (counter+0x2772)
+    #5 emplace_back<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:123 (counter+0x25e8)
+    #6 main /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:35 (counter+0x23ac)
+
+  Thread T1 (tid=17635, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1001 (libtsan.so.2+0x5e686)
+    #1 std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) <null> (libstdc++.so.6+0xd4578)
+    #2 construct_at<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/stl_construct.h:97 (counter+0x2989)
+    #3 construct<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/alloc_traits.h:518 (counter+0x2668)
+    #4 _M_realloc_insert<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:462 (counter+0x2772)
+    #5 emplace_back<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:123 (counter+0x25e8)
+    #6 main /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:35 (counter+0x23ac)
+
+SUMMARY: ThreadSanitizer: data race /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:12 in counter::update()
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=17633)
+  Read of size 8 at 0x7ffeb5103408 by thread T2:
+    #0 counter::update() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:13 (counter+0x3213)
+    #1 operator() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:38 (counter+0x2315)
+    #2 __invoke_impl<void, main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:61 (counter+0x2ecf)
+    #3 __invoke<main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:96 (counter+0x2e64)
+    #4 _M_invoke<0> /usr/include/c++/12/bits/std_thread.h:252 (counter+0x2dca)
+    #5 operator() /usr/include/c++/12/bits/std_thread.h:259 (counter+0x2d74)
+    #6 _M_run /usr/include/c++/12/bits/std_thread.h:210 (counter+0x2d2e)
+    #7 <null> <null> (libstdc++.so.6+0xd44a2)
+
+  Previous write of size 8 at 0x7ffeb5103408 by thread T1:
+    [failed to restore the stack]
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x1f408)
+
+  Thread T2 (tid=17636, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1001 (libtsan.so.2+0x5e686)
+    #1 std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) <null> (libstdc++.so.6+0xd4578)
+    #2 construct_at<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/stl_construct.h:97 (counter+0x2989)
+    #3 construct<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/alloc_traits.h:518 (counter+0x2668)
+    #4 _M_realloc_insert<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:462 (counter+0x2772)
+    #5 emplace_back<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:123 (counter+0x25e8)
+    #6 main /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:35 (counter+0x23ac)
+
+  Thread T1 (tid=17635, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1001 (libtsan.so.2+0x5e686)
+    #1 std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) <null> (libstdc++.so.6+0xd4578)
+    #2 construct_at<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/stl_construct.h:97 (counter+0x2989)
+    #3 construct<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/alloc_traits.h:518 (counter+0x2668)
+    #4 _M_realloc_insert<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:462 (counter+0x2772)
+    #5 emplace_back<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:123 (counter+0x25e8)
+    #6 main /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:35 (counter+0x23ac)
+
+SUMMARY: ThreadSanitizer: data race /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan/counter.cpp:13 in counter::update()
+==================
+counter = 475739
+Time = 1163699 microseconds
+ThreadSanitizer: reported 2 warnings

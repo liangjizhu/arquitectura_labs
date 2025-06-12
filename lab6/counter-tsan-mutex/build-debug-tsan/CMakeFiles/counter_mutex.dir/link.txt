@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=thread -g -g -fsanitize=thread CMakeFiles/counter_mutex.dir/counter_mutex.cpp.o -o counter_mutex
