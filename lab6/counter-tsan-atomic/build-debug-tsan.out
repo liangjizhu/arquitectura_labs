@@ -1,0 +1,6 @@
+-- Configuring done (0.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/build-debug-tsan
+[ 50%] Building CXX object CMakeFiles/counter_atomic.dir/counter_atomic.cpp.o
+[100%] Linking CXX executable counter_atomic
+[100%] Built target counter_atomic

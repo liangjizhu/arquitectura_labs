@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=thread -g -O3 -DNDEBUG -fsanitize=thread CMakeFiles/counter_spin_seq_opt.dir/counter_spin_seq_opt.cpp.o -o counter_spin_seq_opt

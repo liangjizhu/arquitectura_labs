@@ -1,0 +1,21 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done (2.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/alumnos/a0495723/arquitectura_labs/lab6/counter-spin-ra/build-debug-tsan
+[ 50%] Building CXX object CMakeFiles/counter_spin_ra.dir/counter_spin_ra.cpp.o
+[100%] Linking CXX executable counter_spin_ra
+[100%] Built target counter_spin_ra

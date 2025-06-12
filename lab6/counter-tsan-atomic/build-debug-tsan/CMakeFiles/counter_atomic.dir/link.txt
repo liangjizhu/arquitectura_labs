@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=thread -g -g -fsanitize=thread CMakeFiles/counter_atomic.dir/counter_atomic.cpp.o -o counter_atomic

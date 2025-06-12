@@ -1,0 +1,6 @@
+-- Configuring done (0.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/alumnos/a0495723/arquitectura_labs/lab6/counter-spin-ra/build-release-tsan
+[ 50%] Building CXX object CMakeFiles/counter_spin_ra.dir/counter_spin_ra.cpp.o
+[100%] Linking CXX executable counter_spin_ra
+[100%] Built target counter_spin_ra

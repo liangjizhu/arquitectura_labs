@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=thread -g -g -fsanitize=thread CMakeFiles/counter_spin_ra_opt.dir/counter_spin_ra_opt.cpp.o -o counter_spin_ra_opt

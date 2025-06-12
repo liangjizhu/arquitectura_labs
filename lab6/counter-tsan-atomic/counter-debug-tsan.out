@@ -1,0 +1,49 @@
+==================
+WARNING: ThreadSanitizer: data race (pid=19427)
+  Read of size 8 at 0x7ffdb3655be8 by thread T2:
+    #0 counter::update() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/counter_atomic.cpp:14 (counter_atomic+0x3262)
+    #1 operator() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/counter_atomic.cpp:39 (counter_atomic+0x2335)
+    #2 __invoke_impl<void, main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:61 (counter_atomic+0x2eef)
+    #3 __invoke<main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:96 (counter_atomic+0x2e84)
+    #4 _M_invoke<0> /usr/include/c++/12/bits/std_thread.h:252 (counter_atomic+0x2dea)
+    #5 operator() /usr/include/c++/12/bits/std_thread.h:259 (counter_atomic+0x2d94)
+    #6 _M_run /usr/include/c++/12/bits/std_thread.h:210 (counter_atomic+0x2d4e)
+    #7 <null> <null> (libstdc++.so.6+0xd44a2)
+
+  Previous write of size 8 at 0x7ffdb3655be8 by thread T1:
+    #0 counter::update() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/counter_atomic.cpp:14 (counter_atomic+0x328c)
+    #1 operator() /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/counter_atomic.cpp:39 (counter_atomic+0x2335)
+    #2 __invoke_impl<void, main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:61 (counter_atomic+0x2eef)
+    #3 __invoke<main()::<lambda()> > /usr/include/c++/12/bits/invoke.h:96 (counter_atomic+0x2e84)
+    #4 _M_invoke<0> /usr/include/c++/12/bits/std_thread.h:252 (counter_atomic+0x2dea)
+    #5 operator() /usr/include/c++/12/bits/std_thread.h:259 (counter_atomic+0x2d94)
+    #6 _M_run /usr/include/c++/12/bits/std_thread.h:210 (counter_atomic+0x2d4e)
+    #7 <null> <null> (libstdc++.so.6+0xd44a2)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x1fbe8)
+
+  Thread T2 (tid=19430, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1001 (libtsan.so.2+0x5e686)
+    #1 std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) <null> (libstdc++.so.6+0xd4578)
+    #2 construct_at<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/stl_construct.h:97 (counter_atomic+0x29a9)
+    #3 construct<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/alloc_traits.h:518 (counter_atomic+0x2688)
+    #4 _M_realloc_insert<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:462 (counter_atomic+0x2792)
+    #5 emplace_back<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:123 (counter_atomic+0x2608)
+    #6 main /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/counter_atomic.cpp:36 (counter_atomic+0x23cc)
+
+  Thread T1 (tid=19429, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:1001 (libtsan.so.2+0x5e686)
+    #1 std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) <null> (libstdc++.so.6+0xd4578)
+    #2 construct_at<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/stl_construct.h:97 (counter_atomic+0x29a9)
+    #3 construct<std::thread, main()::<lambda()> > /usr/include/c++/12/bits/alloc_traits.h:518 (counter_atomic+0x2688)
+    #4 _M_realloc_insert<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:462 (counter_atomic+0x2792)
+    #5 emplace_back<main()::<lambda()> > /usr/include/c++/12/bits/vector.tcc:123 (counter_atomic+0x2608)
+    #6 main /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/counter_atomic.cpp:36 (counter_atomic+0x23cc)
+
+SUMMARY: ThreadSanitizer: data race /home/alumnos/a0495723/arquitectura_labs/lab6/counter-tsan-atomic/counter_atomic.cpp:14 in counter::update()
+==================
+counter = 250005
+Time = 4315089 microseconds
+ThreadSanitizer: reported 1 warnings

@@ -1,0 +1,3 @@
+/home/alumnos/a0495723/arquitectura_labs/lab6/counter-spin-ra-opt/build-debug-tsan/CMakeFiles/counter_spin_ra_opt.dir
+/home/alumnos/a0495723/arquitectura_labs/lab6/counter-spin-ra-opt/build-debug-tsan/CMakeFiles/edit_cache.dir
+/home/alumnos/a0495723/arquitectura_labs/lab6/counter-spin-ra-opt/build-debug-tsan/CMakeFiles/rebuild_cache.dir
